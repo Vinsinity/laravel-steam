@@ -1,5 +1,5 @@
 {
-    "name": "erhan/steamprices",
+    "name": "Vinsinity/laravel-steam",
     "description": "Laravel Steam Prices",
     "license": "MIT",
     "authors": [
@@ -20,13 +20,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Erhan\\SteamPrices\\": "src/"
+            "Vinsinity\\LaravelSteam\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Erhan\\SteamPrices\\SteamProcessServiceProvider"
+                "Vinsinity\\LaravelSteam\\SteamProcessServiceProvider"
             ]
         }
     },
