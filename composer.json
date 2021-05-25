@@ -1,6 +1,6 @@
 {
-    "name": "vinsinity/laravel-steam",
-    "description": "Laravel Steam Prices",
+    "name": "vinsinity/laravelsteam",
+    "description": "Laravel Steam",
     "license": "MIT",
     "authors": [
         {
