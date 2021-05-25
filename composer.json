@@ -26,13 +26,13 @@
     "extra": {
         "laravel": {
             "providers": [
-                "src/SteamProcessServiceProvider"
+                "Vinsinity\\laravel-steam\\SteamProcessServiceProvider"
             ]
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Erhan\\SteamPrices\\": "src/"
+            "Vinsinity\\LaravelSteam\\": "src/"
         }
     }
 }
