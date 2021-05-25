@@ -1,6 +1,7 @@
 {
     "name": "vinsinity/laravelsteam",
     "description": "Laravel Steam",
+    "keywords": ["steam", "laravel"],
     "license": "MIT",
     "authors": [
         {
@@ -9,23 +10,28 @@
         }
     ],
     "require": {
-        "php": ">=7.0",
-        "illuminate/support": "^8.0",
-        "illuminate/cache": "^8.0",
-        "guzzlehttp/guzzle": "^7.3"
+        "php": "^7.2|^8.0",
+        "guzzlehttp/guzzle": "^6.3|^7.3",
+        "illuminate/http": "^7.0|^8.0",
+        "illuminate/cache": "^7.0|^8.0",
+        "illuminate/support": "^7.0|^8.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "~5.7",
-        "orchestra/testbench": "~3.0"
+        "phpunit/phpunit": "^7.0"
     },
     "autoload": {
         "psr-4": {
-            "Vinsinity\\LaravelSteam\\": "src/"
+            "Vinsinity\\LaravelSteam\\": "src"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Vinsinity\\LaravelSteam\\": "src/"
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vinsinity\\LaravelSteam\\SteamProcessServiceProvider"
+            ]
         }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
     }
 }
