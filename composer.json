@@ -20,19 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Vinsinity\\LaravelSteam\\": "src"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Vinsinity\\LaravelSteam\\SteamProcessServiceProvider"
-            ]
+            "Vinsinity\\LaravelSteam\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Vinsinity\\LaravelSteam\\": "src"
+            "Vinsinity\\LaravelSteam\\": "src/"
         }
     }
 }
