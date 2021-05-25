@@ -24,6 +24,11 @@
             "Vinsinity\\LaravelSteam\\": "src"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Vinsinity\\LaravelSteam\\": "src"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [
