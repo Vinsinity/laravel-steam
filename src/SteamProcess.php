@@ -1,6 +1,6 @@
 <?php
 
-namespace erhan\steamPrices;
+namespace Vinsinity\LaravelSteam;
 
 use Illuminate\Cache\CacheManager;
 use Illuminate\Support\Collection;
