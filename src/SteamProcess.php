@@ -344,7 +344,7 @@ class SteamProcess
             return $steamId;
         }
 
-        return $this->steamIdTo64($steamId);
+        return $steamId;
     }
 
     /**

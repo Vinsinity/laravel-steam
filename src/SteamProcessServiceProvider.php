@@ -4,7 +4,6 @@ namespace Vinsinity\LaravelSteam;
 
 use Illuminate\Cache\CacheManager;
 use Illuminate\Support\ServiceProvider;
-use SteamProcess;
 
 class SteamProcessServiceProvider extends ServiceProvider
 {
